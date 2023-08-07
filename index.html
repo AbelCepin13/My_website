@@ -6,13 +6,45 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav id="nav1">
-    <a href="index.html"><img src="https://st3.depositphotos.com/30226412/34183/v/600/depositphotos_341838596-stock-illustration-initial-letter-ac-or-ca.jpg"></a>
-    <a href="education.html" ><div class="element">Education</div></a>
-    <a href="extracurriculars.html"><div class="element">Extracurriculars</div></a>
-    <a href="family.html" ><div class="element">Family</div></a>
-    <a href="achievements.html" ><div class="element">Achievements</div></a>
-</nav>
+    <nav id="nav1">
+        <a href="index.html"><img src="https://st3.depositphotos.com/30226412/34183/v/600/depositphotos_341838596-stock-illustration-initial-letter-ac-or-ca.jpg"></a>
+        <div class="dropdown">
+            <a class="element">Education</a>
+            <div class="dropdown-content">
+                
+                <a href="education1.html">Middle School</a>
+                <a href="education2.html">High School</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a  class="element">Extracurriculars</a>
+            <div class="dropdown-content">
+                <a href="extra1.html">Basketball</a>
+                <a href="extra2.html">Coding</a>
+                <a href="extra3.html">Finance</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a  class="element">Family</a>
+            <div class="dropdown-content">
+                <a href="fam2.html">Mom's side</a>
+                <a href="fam1.html">Dad's side</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a  class="element">Acievements</a>
+            <div class="dropdown-content">
+                <a href="ach1.html">Valedictorian</a>
+                <a href="ach2.html">Atom Hacks</a>
+            </div>
+        </div>
+        <select id="color_dropdown">
+            <option value="Green">Green</option>
+            <option value="Goldenrod">Yellow</option>
+            <option value="Red">Red</option>
+            <option value="Blue">Blue</option>     
+           </select>
+    </nav>
 
 <div id="banner">
     <img id="bannerimg"src="Banner.png">
@@ -25,9 +57,13 @@
     <brk></brk>
     <div><a href="https://github.com/AbelCepin13">GitHub</a></div>
     </div>
-    <div>
-        <img id="selfimage"src="RenderedImage.jpeg">
-
-    </div>
+    
+</div>
+<div>
+<img id="image"src="RenderedImage.jpeg">
+</div>
+<div>
+<p id="descriptions">Hello, my name is Abel Cepin, a proud Dominican and Ecuadorian who’s passion lies within Computer Science. A little about me is that I’m a basketball fanatic as I always play it no matter the situation, this also makes me a top tier competitor as I always want to reach the top and be the best that I can be at anything I put my mind to no matter how dumb it may seem. I hope you guys enjoy my website. </p>
 </div>
 </body>
+<script src="script.js"></script>
